@@ -1,2 +1,4 @@
 [build]
-  functions = "functions"
+  base = "FRONT_END"
+  command = "npm run build"
+  publish = "FRONT_END/dist"
